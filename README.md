@@ -20,10 +20,10 @@ Vendor
 Product
 
 - id
-- vendorId
 - name
 - description
-- category
+- vendorId
+- categoryId
 - image
 - rating
 - reviews
@@ -34,11 +34,4 @@ Product
 Category
 
 - id
-- computer
-- tv
-- headphone
-- cosmetic
-- furniture
-- grocery
-- clothing
-- sunglass
+- name [computer tv headphone cosmetic furniture grocery clothing sunglass]
