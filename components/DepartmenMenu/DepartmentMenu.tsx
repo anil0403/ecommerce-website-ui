@@ -14,7 +14,7 @@ const DepartmentMenu = () => {
         </h1>
         <CgMenuRightAlt color="white" size={30}/>
         <div className=" w-full absolute top-20 left-0">
-          <ul className="flex flex-col gap-3 text-md font-semibold px-2 border-black border-l-2 ">
+          <ul className="flex flex-col gap-5 text-md font-semibold px-2 border-black border-l-2 ">
             <Items name="Beauty" />
             <Items name="Electronic" />
             <Items name="Women's Fashion" />
