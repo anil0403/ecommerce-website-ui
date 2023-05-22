@@ -5,8 +5,8 @@ import Items from "./Items";
 import ImageSlider from "../ImageSlider/ImageSlider";
 const DepartmentMenu = () => {
   return (
-    <div className="flex flex-col gap-8 mb-2 items-center">
-      <div className=" relative w-full bg-purple-500 py-3 flex gap-10 flex-row justify-between z-1">
+    <div className=" mx-10 flex flex-col gap-8 mb-2 items-center">
+      <div className=" relative w-full bg-sky-950 py-3 flex gap-10 flex-row justify-between z-1">
         <div className="relative w-1/5 rounded-t-md ml-10 px-5 py-1 flex flex-row items-center justify-between bg-red-600 z-1">
           <h1 className="text-md font-semibold text-white">
             All Department
@@ -36,7 +36,7 @@ const DepartmentMenu = () => {
             type="text"
             placeholder="Search for product"
           />
-          <button className="px-4 h-full bg-red-600 rounded-r-md text-md font-semibold text-white">
+          <button className="px-4 h-full bg-red-600 rounded-r-md text-md font-semibold text-white hover:bg-red-700">
             Search
           </button>
         </div>

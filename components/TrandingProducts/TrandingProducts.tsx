@@ -41,7 +41,7 @@ const TrandingProducts = () => {
             <span className="text-sm font-semibold">(2548)</span>
           </div>
           <div>
-            <h1 className="text-lg font-extrabold my-3">
+            <h1 className="text-lg font-extrabold my-3 cursor-pointer hover:underline">
               Happy Sailed Womens Summer Boho Floral
             </h1>
             <p className="text-lg font-bold my-3 text-red-600">
@@ -83,7 +83,7 @@ const TrandingProducts = () => {
             <span className="text-sm font-semibold">(2548)</span>
           </div>
           <div>
-            <h1 className="text-lg font-extrabold my-3">
+            <h1 className="text-lg font-extrabold my-3 cursor-pointer hover:underline">
               Black Women's Coat Dress
             </h1>
             <p className="text-lg font-bold my-3 text-red-600">
@@ -124,7 +124,7 @@ const TrandingProducts = () => {
             <span className="text-sm font-semibold">(2548)</span>
           </div>
           <div>
-            <h1 className="text-lg font-extrabold my-3">
+            <h1 className="text-lg font-extrabold my-3 cursor-pointer hover:underline">
               Men Slip On Shoes Casual With Arch Support Insoles
             </h1>
             <p className="text-md font-bold my-3 text-red-600">

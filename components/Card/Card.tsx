@@ -28,7 +28,9 @@ const Card: React.FC<CardProps> = ({ name, path }) => {
         <span className="text-sm font-semibold">(2548)</span>
       </div>
       <div>
-        <h1 className="text-lg font-extrabold my-2 hover:underline cursor-pointer">{name}</h1>
+        <h1 className="text-lg font-extrabold my-2 hover:underline cursor-pointer">
+          {name}
+        </h1>
         <p className="text-lg font-bold my-1 text-red-500">
           $128.99
           <span className="text-sm  mx-2 text-gray-500 font-semibold line-through">

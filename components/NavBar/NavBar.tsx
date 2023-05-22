@@ -37,13 +37,13 @@ const NavBar = () => {
         </ul>
 
         <div className=" flex flex-row items-center gap-10 absolute right-10 ">
-          <div className="relative ">
+          <div  className="relative cursor-pointer">
             <p className=" text-sm font-semibold  bg-slate-500 rounded-full  px-2 absolute -top-2 left-5">
               0
             </p>
             <BiHeart fontSize={30} />
           </div>
-          <div className="relative ">
+          <div className="relative cursor-pointer ">
             <p className=" text-sm font-semibold  bg-slate-500 rounded-full px-2 absolute -top-2 left-5">
               0
             </p>
