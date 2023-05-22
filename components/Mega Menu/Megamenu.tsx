@@ -71,7 +71,6 @@ const Megamenu = () => {
           <p className="absolute text-4xl font-bold text-center bottom-10 text-blue-950">
             MOST WANTED!
             <span className="text-sm font-semibold py-2 mx-10 bg-red-600 rounded-lg text-white  block">
-              {" "}
               Order Now
             </span>{" "}
           </p>
