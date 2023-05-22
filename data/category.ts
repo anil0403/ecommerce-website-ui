@@ -2,40 +2,42 @@
 
 // - id
 // - name [computer tv headphone cosmetic furniture grocery clothing sunglass]
-
-export default function categories() {
-  return [
+const categories = () => {
+  const data = [
     {
       id: 1,
-      name: "computer",
+      name: "Computer",
     },
     {
       id: 2,
-      name: "tv",
+      name: "Laptop",
     },
     {
       id: 3,
-      name: "headphone",
+      name: "Headphone",
     },
     {
       id: 4,
-      name: "cosmetic",
+      name: "Cosmetic",
     },
     {
       id: 5,
-      name: "furniture",
+      name: "Furniture",
     },
     {
       id: 6,
-      name: "grocery",
+      name: "Grocery",
     },
     {
       id: 7,
-      name: "clothing",
+      name: "Clothing",
     },
     {
       id: 8,
-      name: "sunglass",
+      name: "Sunglass",
     },
   ];
-}
+  return data;
+};
+
+export default categories;

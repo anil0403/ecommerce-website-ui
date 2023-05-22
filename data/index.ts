@@ -3,4 +3,4 @@ import users from "./user";
 import products from "./product";
 import categories from "./category";
 
-export { users, vendors, products, categories };
+export default { users, vendors, products, categories };

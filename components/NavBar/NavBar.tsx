@@ -1,41 +1,31 @@
 import React from "react";
-import { BsCart2, BsSearch } from "react-icons/bs";
+import { BsCart2 } from "react-icons/bs";
+import { BiHeart } from "react-icons/bi";
+import { RiArrowDropDownLine } from "react-icons/ri";
 const NavBar = () => {
   return (
-    <div className="w-full my-1 py-4 shadow-md shadow-slate-200 flex flex-row  justify-center gap-10 items-center relative">
-      <h1
-        onClick={() => {}}
-        className="text-4xl font-bold  cursor-pointer absolute left-10"
-      >
-        ECOMMERCE
-      </h1>
-      <div className="flex flex-row items-center">
-        <input
-          className="bg-gray-200 px-2 py-2 rounded-l-md outline-none text-semibold text-gray-500 w-96"
-          type="text"
-          placeholder="search items"
-        />
-        <BsSearch
-          onClick={() => {}}
-          className="bg-orange-400 p-3 h-full cursor-pointer rounded-r-md hover:bg-orange-500"
-          size={40}
-          color="white"
-        />
+    <div className="w-full py-2 relative flex flex-row justify-start items-center gap-10">
+      <div className="relative p-5 mx-5">
+        <p className="p-3 bg-purple-500 aspect-square w-0.5 rounded-full absolute top-3 left-3"></p>
+        <h1 className="text-3xl font-extrabold">.Store</h1>
       </div>
-      <BsCart2 onClick={() => {}} className="cursor-pointer" size={30} />
-      <div className="pr-10 flex felx-row gap-5 absolute right-10">
-        <button
-          onClick={() => {}}
-          className="bg-sky-500 px-3 rounded-md text-lg font-semibold text-white py-2 hover:bg-sky-600"
-        >
-          Login
-        </button>
-        <button
-          onClick={() => {}}
-          className="bg-sky-500 px-3 rounded-md text-lg font-semibold text-white py-2 hover:bg-sky-600"
-        >
-          Sign in
-        </button>
+      <ul className="text-md font-semibold flex flex-row gap-8 cursor-pointer">
+        <li>Home</li>
+        <li>Shop</li>
+        <li className=" inline-flex items-center">
+          Women
+          <RiArrowDropDownLine fontSize="1.5rem" />
+        </li>
+        <li>Men</li>
+        <li>Sports</li>
+      </ul>
+
+      <div className=" flex flex-row items-center gap-5 absolute right-10 ">
+        <BiHeart fontSize={30} />
+        <BsCart2 fontSize={30} />
+        <p className="flex flex-col text-sm">
+          Total <span className="text-lg font-semibold">$0.00</span>
+        </p>
       </div>
     </div>
   );

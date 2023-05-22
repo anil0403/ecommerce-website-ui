@@ -1,7 +1,10 @@
-
-
+import Sidebar from "@/components/Sidebar/Sidebar";
+import ImageSlider from "@/components/ImageSlider/ImageSlider";
+import Card from "@/components/Card/Card";
 export default function Home() {
   return (
-    <h1>Home</h1>
-  )
+    <div className="w-full">
+HOme
+    </div>
+  );
 }
