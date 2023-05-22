@@ -11,8 +11,8 @@ const NavBar = () => {
   console.log(toggle);
 
   return (
-    <div className="w-full py-2 relative flex flex-row justify-start items-center gap-10 z-1">
-      <div className="relative p-5 mx-5">
+    <div className="w-full py-2 relative flex flex-row justify-start items-center gap-10 z-5">
+      <div className="relative p-5 mx-5 z-5">
         <p className="p-3 bg-purple-500 aspect-square w-0.5 rounded-full absolute top-3 left-3"></p>
         <h1 className="text-3xl font-extrabold">.Store</h1>
       </div>

@@ -3,7 +3,7 @@ import Items from "./Items";
 import Image from "next/image";
 const Megamenu = () => {
   return (
-      <div className="w-screen absolute top-20  p-10 flex flex-row left-0 bg-gray-200 ">
+      <div className="w-screen absolute top-20  p-10 flex flex-row left-0 bg-gray-200 z-50 ">
         <div className="flex flex-col gap-2">
           <h1 className="text-sm font-bold">WOMEN'S CLOTHING</h1>
           <ul className="flex flex-col gap-2 w-64">
