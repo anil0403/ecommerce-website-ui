@@ -2,7 +2,7 @@ import React from "react";
 import { RiArrowDropDownLine } from "react-icons/ri";
 const Header = () => {
   return (
-    <div className="w-full px-10 py-2 flex flex-row justify-between items-center text-sm ">
+    <div className="w-full px-10 py-2 flex flex-row justify-between items-center text-sm relative z-10 ">
       <ul className="flex flex-row item-center gap-10">
         <li className="hover:underline decoration-slate-600 cursor-pointer">
           Blog
@@ -14,7 +14,7 @@ const Header = () => {
           Wishlist
         </li>
       </ul>
-      <ul className="flex flex-row item-center gap-10">
+      <ul className="flex flex-row item-center gap-10 px-2">
         <li className="hover:underline decoration-slate-600 cursor-pointer">
           Sign Up
         </li>
@@ -29,7 +29,7 @@ const Header = () => {
           <span className="pl-1">
             <RiArrowDropDownLine fontSize="1.5rem" />
           </span>
-          <ul className=" hidden group-hover:block absolute top-6 text-black z-11  w-full ">
+          <ul className=" hidden group-hover:block absolute top-6 text-black z-11  w-full bg-white">
             <li className="hover:bg-slate-100 py-1">NPR</li>
             <li className="hover:bg-slate-100 py-1">INR</li>
             <li className="hover:bg-slate-100 py-1">EURO</li>
@@ -40,7 +40,7 @@ const Header = () => {
           <span className="pl-1">
             <RiArrowDropDownLine fontSize="1.5rem" />
           </span>
-          <ul className=" hidden group-hover:block absolute top-6 text-black z-11  w-full ">
+          <ul className=" hidden group-hover:block absolute top-6 text-black z-11  w-full bg-white">
             <li className="hover:bg-slate-100 py-1">Nepali</li>
             <li className="hover:bg-slate-100 py-1">Hindi</li>
             <li className="hover:bg-slate-100 py-1">Newari</li>

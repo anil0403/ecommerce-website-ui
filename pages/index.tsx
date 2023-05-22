@@ -1,10 +1,9 @@
-import Sidebar from "@/components/Sidebar/Sidebar";
-import ImageSlider from "@/components/ImageSlider/ImageSlider";
-import Card from "@/components/Card/Card";
+
+import Megamenu from "@/components/Mega Menu/Megamenu";
+import Image from "next/image";
 export default function Home() {
   return (
     <div className="w-full">
-HOme
     </div>
   );
 }
