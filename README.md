@@ -10,7 +10,6 @@
 
 ### 🏠 [Homepage](https://ecommerce-website-ui-three.vercel.app/)
 
-## Building Next Js Authentication Template
 
 ### Cloning the repository
 
